@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FaceBookIcon from '@mui/icons-material/Facebook';
 import { PactLogo } from '../../assets/images';
 import {
   AppBar,
@@ -16,12 +18,12 @@ import {
 
 
 const pages = [
-  { url: '/', title: 'HOME' },
   { url: 'pricing', title: 'PRICING + PACKAGES' },
   { url: 'rightforyou', title: 'WHAT TYPE OF WEDDING IS RIGHT FOR ME?' },
   { url: 'blog', title: 'BLOG & RESOURCES' },
   { url: 'about', title: 'ABOUT & FAQ' },
   { url: 'contact', title: 'CONTACT' },
+  { url: 'portal', title: 'PORTAL' },
 ];
 
 const Nav = () => {
@@ -36,7 +38,7 @@ const Nav = () => {
   };
 
   return (
-    <AppBar position="static" color="appBar" sx={{boxShadow: 0 }}>
+    <AppBar position="fixed" color="appBar" sx={{boxShadow: 0, pt: 1 }}>
       <Container maxWidth="100vw">
         <Toolbar disableGutters>
           <Typography
@@ -47,12 +49,12 @@ const Nav = () => {
           </Typography>
 
           
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, flexWrap: 'wrap' }}>
             {pages.map((page) => (
               <Button
                 key={page.url}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 'auto', mx: 'auto', color: 'white', display: 'block' }}
+                sx={{ mx: '2vw', display: 'flex', width: 'auto'}}
               >
                 <Link to={page.url}><h2>{page.title}</h2></Link>
               </Button>
@@ -92,6 +94,13 @@ const Nav = () => {
               ))}
             </Menu>
           </Box>
+          <Typography
+            component="div"
+            sx={{ alignItems: 'right', display: { xs: 'none', md: 'flex' } }}
+          >
+            <InstagramIcon />
+            <FaceBookIcon />
+          </Typography>
         </Toolbar>
       </Container>
     </AppBar>
