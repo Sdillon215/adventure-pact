@@ -8,12 +8,28 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
-a h2 {
+a,
+h1,
+h3 {
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  font-size: calc((2.4 - 1) * 1.2vh + 1rem)
+}
+
+h3 {
+  font-size: calc((1.5 - 1) * 1.2vh + 1rem)
+
+}
+p {
+  font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+  font-weight: 600;
 }
 
 /* Nav Style */
@@ -29,15 +45,48 @@ a {
 
 .icon {
   height: auto;
-  width: 70px;
+  width: 85px;
   padding-top: 5px;
+}
+
+.MuiBox-root .MuiButton-root {
+  padding: 2px 8px;
 }
 
 /* Hero Style */
 .hero {
-  background-image: url('./assets/images/PactHeroBg.jpg');
+  background-image: url('./assets/images/PactHeroBg.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroText {
+  width: 65vw;
+  margin: auto auto 12vh 5vw;
+  color: white;
+  max-width: 520px;
+}
+
+/* Home Section one */
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.sectHome {
+  margin: 0vh 5vw;
+  max-width: 815px;
+}
+@media only screen and (min-width: 820px) {
+  h1 {
+    font-size: 38px;
+  }
 }
