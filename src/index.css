@@ -2,6 +2,7 @@
   --primary: #0d6d78;
   --secondary: #dfded6;
   --terrtiary: #224241;
+  --lighterGreen: #5f7b55;
 }
 
 body {
@@ -13,8 +14,7 @@ body {
 }
 
 a,
-h1,
-h3 {
+h1 {
   padding: 0;
   margin: 0;
 }
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: calc((1.5 - 1) * 1.2vh + 1rem)
+  font-size: calc((1.6 - 1) * 1.2vh + 1rem)
 
 }
 p {
@@ -36,6 +36,11 @@ p {
 .nav {
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0);
+}
+
+a h3 {
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -81,10 +86,41 @@ a {
   margin-bottom: 5vh;
 }
 
+.primary {
+  background-color: var(--primary);
+}
+
+.secondaryColor {
+  background-color: var(--secondary);
+}
+
+.terrtiary {
+  background-color: var(--terrtiary);
+  color: var(--lighterGreen);
+}
+
+.underline {
+  text-decoration: underline;
+}
 .sectHome {
   margin: 0vh 5vw;
   max-width: 815px;
 }
+
+.whiteText {
+  color: white;
+}
+
+.sectionPad {
+  padding: 5vh;
+  margin-bottom: 0vh;
+}
+
+#map {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 820px) {
   h1 {
     font-size: 38px;

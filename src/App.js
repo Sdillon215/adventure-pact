@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Nav from "./components/Nav"
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import Type from "./pages/Type";
@@ -28,6 +29,9 @@ const theme = createTheme({
     },
     appBar: {
       main: 'rgb(0,0,0,0)',
+    },
+    lighterGreen: {
+      main: '#5f7b55',
     }
   },
 });
@@ -46,6 +50,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/portal" element={<Portal />} />
         </Routes>
+        <Footer />
       </ThemeProvider>
     </Router>
   );
