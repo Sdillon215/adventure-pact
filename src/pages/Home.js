@@ -216,10 +216,10 @@ function Home() {
                                     position: 'sticky',
                                     top: '100px',
                                     bottom: '100px',
-                                    width: '100%',
                                     justifyContent: 'center',
                                     mx: '10vw',
-                                    padding: '10vh 0vh'
+                                    mt: "auto",
+                                    padding: '10vh'
                                 }}>
                                 <CardMedia
                                     className='sectHome'
@@ -228,7 +228,7 @@ function Home() {
                                     alt="Mountain drawing"
                                     image={MountainStencil}
                                 />
-                                <h2 className="whiteText">4 REASONS YOU SHOULD SERIOUSLY CONSIDER ME</h2>
+                                <h2 className="whiteText">4 REASONS WHY YOU SHOULD SERIOUSLY CONSIDER ME</h2>
                             </Box>`
                         </Grid>
                         <Grid className="column terrtiary" sx={{ textAlign: 'left', pr: '6vw' }} item xs={12} md={6}>
