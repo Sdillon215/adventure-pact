@@ -15,12 +15,13 @@ import {
     Map,
     Rocks,
     River,
-    Pool
+    Pool,
+    Junipup
 } from '../assets/images';
 
 const threeImgOne = [{ img: Cave, key: 'Looking through a cave on the beach' }, { img: BlackVelvet, key: 'Black Velvet Canyon Red Rock National Conservation Area' }, { img: Canyoneer, key: 'A couple rappelling down a water fall' }];
 const threeImgTwo = [{ img: Tree, key: 'A couple sitting on a fallen tree' }, { img: SunsetVow, key: 'A couple renews vows during sunset' }, { img: Road, key: 'Dacning in the road' }];
-const threeImgThree = [{ img: Rocks, key: 'A couple nestled in the sandstone of Red Rock'}, { img: River, key: 'Splashing in the river'}, { img: Pool, key: 'Jumping into the pool'}];
+const threeImgThree = [{ img: Rocks, key: 'A couple nestled in the sandstone of Red Rock' }, { img: River, key: 'Splashing in the river' }, { img: Pool, key: 'Jumping into the pool' }];
 const fourReasons = [
     {
         key: 23536,
@@ -87,9 +88,45 @@ function Home() {
                     <p>The Adventure Pact team is here to literally plan every detail (or help you plan if you're into that sort of thing)</p>
                 </section>
             </div>
-            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container spacing={1}>
+            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container>
                 <Grid item xs={12}>
-                    <Grid container justifyContent="center" spacing={1}>
+                    <Grid container justifyContent="center">
+                        <Grid item xs={12} md={6}>
+                            <Box 
+                            position="relative"
+                            sx={{ height: { xs: 300, sm: 400, md: 500, lg: 700, xl: 800 } }}>
+                                <div className="testimonial-cont quote1">
+                                    <h2>"I just love Kayla she was so Fun!"</h2>
+                                    <p> - Jill</p>
+                                </div>
+                                <div className="testimonial-cont quote2">
+                                    <h2>"Greatest adventure of my life!"</h2>
+                                    <p> - Jenny</p>
+                                </div>
+                                <div className="testimonial-cont quote3">
+                                    <h2>"TBH I just wanted to hang out with Juniper"</h2>
+                                    <p> - Madi</p>
+                                </div>
+                                <div className="testimonial-cont quote4">
+                                    <h2>"Superduper awesome radical bro"</h2>
+                                    <p> - Amie</p>
+                                </div>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                            <CardMedia
+                                sx={{ height: { xs: 300, sm: 400, md: 500, lg: 700, xl: 800 } }}
+                                component="img"
+                                alt="Juniper the adventure dog"
+                                image={Junipup}
+                            />
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container>
+                <Grid item xs={12}>
+                    <Grid container justifyContent="center">
                         <Grid item xs={12} md={6}>
                             <CardMedia
                                 sx={{ height: { xs: 300, sm: 400, md: 500, lg: 700, xl: 800 } }}
@@ -212,12 +249,12 @@ function Home() {
                 <img id="map" alt="map" src={Map} />
             </Box>
             <div className="column">
-                    <h2>STAY UP-TO-DATE WITH ALL THE RAD HAPPENINGS AT ADVENTURE PACT BY FOLLOWING US ON INSTAGRAM</h2>
-                    <Box sx={{width: 'fit-content' }} >
-                        <a underline="none" target="_blank" rel="noreferrer" href='https://www.instagram.com/adventurepact/'>
-                            <InstagramIcon sx={{ display: 'flex', fontSize: '5rem' }} />
-                        </a>
-                    </Box>
+                <h2 className="sectHome">STAY UP-TO-DATE WITH ALL THE RAD HAPPENINGS AT ADVENTURE PACT BY FOLLOWING US ON INSTAGRAM</h2>
+                <Box sx={{ width: 'fit-content' }} >
+                    <a underline="none" target="_blank" rel="noreferrer" href='https://www.instagram.com/adventurepact/'>
+                        <InstagramIcon sx={{ display: 'flex', fontSize: '5rem' }} />
+                    </a>
+                </Box>
             </div>
             <Grid sx={{ mb: '5vh', flexGrow: 1 }} container spacing={1}>
                 <Grid item xs={12}>

@@ -14,3 +14,4 @@ export const Pool = require('./pool.JPG');
 export const Rocks = require('./rocks.jpg');
 export const River = require('./river.jpg');
 export const WonderWed = require('./wonderingWed.png');
+export const Junipup = require('./junipup.jpg');

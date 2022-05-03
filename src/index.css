@@ -25,8 +25,8 @@ h2 {
 
 h3 {
   font-size: calc((1.6 - 1) * 1.2vh + 1rem)
-
 }
+
 p {
   font-size: calc((1.1 - 1) * 1.2vw + 1rem);
   font-weight: 600;
@@ -102,6 +102,7 @@ a {
 .underline {
   text-decoration: underline;
 }
+
 .sectHome {
   margin: 0vh 5vw;
   max-width: 815px;
@@ -120,6 +121,163 @@ a {
   width: 100%;
   height: auto;
 }
+
+/* testimonial animations */
+.testimonial-cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.quote1 {
+  -webkit-animation: sliderFade-1 20s linear infinite;
+  animation: sliderFade-1 20s linear infinite;
+}
+
+.quote2 {
+  -webkit-animation: sliderFade-2 20s linear infinite;
+  animation: sliderFade-2 20s linear infinite;
+}
+
+.quote3 {
+  -webkit-animation: sliderFade-3 20s linear infinite;
+  animation: sliderFade-3 20s linear infinite;
+}
+
+.quote4 {
+  -webkit-animation: sliderFade-4 20s linear infinite;
+  animation: sliderFade-4 20s linear infinite;
+}
+
+@keyframes sliderFade-1 {
+  0% {
+    opacity: 0
+  }
+
+  5% {
+    opacity: .5
+  }
+
+  10% {
+    opacity: 1
+  }
+  
+  15% {
+    opacity: 1
+  }
+
+  20% {
+    opacity: .5
+  }
+
+  25% {
+    opacity: 0
+  }
+  
+  100% {
+    opacity: 0
+  }
+
+}
+
+@keyframes sliderFade-2 {
+  0% {
+    opacity: 0
+  }
+  
+  25% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: .5
+  }
+  
+  35% {
+    opacity: 1
+  }
+  
+  40% {
+    opacity: 1
+  }
+  
+  45% {
+    opacity: .5
+  }
+  
+  50% {
+    opacity: 0
+  }
+  
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes sliderFade-3 {
+  0% {
+    opacity: 0
+  }
+  
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: .5
+  }
+  
+  60% {
+    opacity: 1
+  }
+  
+  65% {
+    opacity: 1
+  }
+  
+  70% {
+    opacity: .5
+  }
+  
+  75% {
+    opacity: 0
+  }
+  
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes sliderFade-4 {
+  0% {
+    opacity: 0
+  }
+
+  75% {
+    opacity: 0
+  }
+  
+  80% {
+    opacity: .5
+  }
+  
+  85% {
+    opacity: 1
+  }
+  
+  90% {
+    opacity: 1
+  }
+  
+  95% {
+    opacity: .5
+  }
+  
+  100% {
+    opacity: 0
+  }
+}
+/* end testimonial animations */
 
 @media only screen and (min-width: 820px) {
   h1 {
