@@ -131,23 +131,23 @@ a {
 }
 
 .quote1 {
-  -webkit-animation: sliderFade-1 20s linear infinite;
-  animation: sliderFade-1 20s linear infinite;
+  -webkit-animation: sliderFade-1 45s linear infinite;
+  animation: sliderFade-1 45s linear infinite;
 }
 
 .quote2 {
-  -webkit-animation: sliderFade-2 20s linear infinite;
-  animation: sliderFade-2 20s linear infinite;
+  -webkit-animation: sliderFade-2 45s linear infinite;
+  animation: sliderFade-2 45s linear infinite;
 }
 
 .quote3 {
-  -webkit-animation: sliderFade-3 20s linear infinite;
-  animation: sliderFade-3 20s linear infinite;
+  -webkit-animation: sliderFade-3 45s linear infinite;
+  animation: sliderFade-3 45s linear infinite;
 }
 
 .quote4 {
-  -webkit-animation: sliderFade-4 20s linear infinite;
-  animation: sliderFade-4 20s linear infinite;
+  -webkit-animation: sliderFade-4 45s linear infinite;
+  animation: sliderFade-4 45s linear infinite;
 }
 
 @keyframes sliderFade-1 {

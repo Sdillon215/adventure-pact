@@ -96,20 +96,20 @@ function Home() {
                             position="relative"
                             sx={{ height: { xs: 300, sm: 400, md: 500, lg: 700, xl: 800 } }}>
                                 <div className="testimonial-cont quote1">
-                                    <h2>"I just love Kayla she was so Fun!"</h2>
-                                    <p> - Jill</p>
+                                    <h3>"Seeing the photos she took Literally brought me to tears and gave me butterflies! I couldn't wait to ask my husband to plan another adventure with her!"</h3>
+                                    <p> - Sherry B</p>
                                 </div>
                                 <div className="testimonial-cont quote2">
-                                    <h2>"Greatest adventure of my life!"</h2>
-                                    <p> - Jenny</p>
+                                    <h3>"Everything about working with Kayla — her solid communication and thoughtful planning, her fun and easy going nature, and her crazy talented photography — made our elopement session a dream from start to finish."</h3>
+                                    <p> - Diana G</p>
                                 </div>
                                 <div className="testimonial-cont quote3">
-                                    <h2>"TBH I just wanted to hang out with Juniper"</h2>
-                                    <p> - Madi</p>
+                                    <h3>"The experience was truly like working with your friend who truly got to know you and tailored the experience just for you."</h3>
+                                    <p> - Jessica F</p>
                                 </div>
                                 <div className="testimonial-cont quote4">
-                                    <h2>"Superduper awesome radical bro"</h2>
-                                    <p> - Amie</p>
+                                    <h3>"The whole day was truly a dream filled with love. I don't think we stopped laughing the whole day."</h3>
+                                    <p> - Peggy T</p>
                                 </div>
                             </Box>
                         </Grid>
