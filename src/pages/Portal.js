@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import Alert from '../components/UnderConstruction';
 
 
 function Portal() {
@@ -14,6 +15,7 @@ function Portal() {
       justifyContent="center"
     >
       This is the mutha Heckin portallllll
+      <Alert />
     </Grid>
   );
 };

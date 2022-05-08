@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-
+import Alert from '../components/UnderConstruction';
 
 function About() {
   return (
@@ -14,6 +14,7 @@ function About() {
       justifyContent="center"
     >
       About its what its about n stuff
+      <Alert />
     </Grid>
   );
 };

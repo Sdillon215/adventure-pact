@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import Alert from '../components/UnderConstruction';
 
 
 function Type() {
@@ -14,6 +15,7 @@ function Type() {
       justifyContent="center"
     >
       What type is right for you dude
+      <Alert />
     </Grid>
   );
 };

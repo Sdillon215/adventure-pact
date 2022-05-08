@@ -254,7 +254,7 @@ function Home() {
                 </Box>
                 </section>
             </div>
-            <Grid sx={{ mb: '5vh', flexGrow: 1 }} container spacing={1}>
+            <Grid sx={{ flexGrow: 1 }} container spacing={1}>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center" spacing={1}>
                         {threeImgThree.map((pic) => (

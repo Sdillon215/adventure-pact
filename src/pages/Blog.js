@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import Alert from '../components/UnderConstruction';
 
 
 function Blog() {
@@ -14,6 +15,7 @@ function Blog() {
       justifyContent="center"
     >
       Blogzzzzz
+      <Alert />
     </Grid>
   );
 };
