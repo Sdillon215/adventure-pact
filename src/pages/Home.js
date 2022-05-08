@@ -88,13 +88,13 @@ function Home() {
                     <p>The Adventure Pact team is here to literally plan every detail (or help you plan if you're into that sort of thing)</p>
                 </section>
             </div>
-            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container>
+            <Grid sx={{ flexGrow: 1 }} container>
                 <Grid item xs={12}>
-                    <Grid container justifyContent="center">
+                    <Grid container justifyContent="center" sx={{ flexDirection: { xs: 'column-reverse', md: 'row'}}}>
                         <Grid item xs={12} md={6}>
                             <Box 
                             position="relative"
-                            sx={{ height: { xs: 300, sm: 400, md: 500, lg: 700, xl: 800 } }}>
+                            sx={{ height: { xs: 320, sm: 400, md: 500, lg: 700, xl: 800 } }}>
                                 <div className="testimonial-cont quote1">
                                     <h3>"Seeing the photos she took Literally brought me to tears and gave me butterflies! I couldn't wait to ask my husband to plan another adventure with her!"</h3>
                                     <p> - Sherry B</p>
@@ -124,7 +124,7 @@ function Home() {
                     </Grid>
                 </Grid>
             </Grid>
-            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container>
+            <Grid sx={{ flexGrow: 1 }} container>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center">
                         <Grid item xs={12} md={6}>
@@ -149,8 +149,8 @@ function Home() {
             <Grid sx={{ mb: '5vh', flexGrow: 1 }} className="secondaryColor" container spacing={0}>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center" spacing={0}>
-                        <Grid className="column" item xs={12} md={6}>
-                            <section className='sectHome'>
+                        <Grid className="column" item sx={{ px: "5vw" }} xs={12} md={6}>
+                            <section>
                                 <h2>HI I'M KAYLA</h2>
                                 <p>Your love-loving, (yep, just call me Ted Mosby), mountain top dancing, coffee-bearing hype girl who gathered the RADDEST team around to create some truly EPIC experiences.
                                     With endless stoke, sub-par dance moves, endless motivation, and the skills and general badassery to pull of some pretty amazing things.</p>
@@ -192,13 +192,13 @@ function Home() {
             <div className="column">
                 <section className="sectHome">
                     <h3>I AM HERE FOR THE WILD ONES- THE BOLD, THE ADVENTUROUS, THE ONES THAT THROW AWAY THE RULE BOOK.</h3>
-                    <h3>SAY YES TO YOUR FOREVER ADVENTURE WITH EXPERIENCES THAT TAKE YOUR BREATHE AWAY. SAY YES TO TRUL INTIMATE EXPERIENCES. SAY YES TO CELEBRATING LIFE. SAY HELL YES TO LAUGHING, DANCING, SINGING, AND ENJOYING LIKE THERE IS NO TOMORROW.</h3>
+                    <h3>SAY YES TO YOUR FOREVER ADVENTURE WITH EXPERIENCES THAT TAKE YOUR BREATHE AWAY. SAY YES TO TRULY INTIMATE EXPERIENCES. SAY YES TO CELEBRATING LIFE. SAY HELL YES TO LAUGHING, DANCING, SINGING, AND ENJOYING LIKE THERE IS NO TOMORROW.</h3>
                     <Link to='contact'>
                         <Button variant="contained" color="primary">Let Adventure Pact Plan Your Experience</Button>
                     </Link>
                 </section>
             </div>
-            <div className="column secondaryColor sectionPad">
+            <div className="column secondaryColor">
                 <section className="sectHome">
                     <h2>ARE YOU READY TO TAKE A LEAP INTO YOUR FOREVER ADVENTURE???</h2>
                     <Link to='contact'>
@@ -206,32 +206,28 @@ function Home() {
                     </Link>
                 </section>
             </div>
-            <Grid sx={{ flexGrow: 1, mb: { xs: '5vh', md: '0' } }} container spacing={1}>
+            <Grid sx={{ flexGrow: 1 }} container spacing={0}>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center" spacing={0}>
                         <Grid item xs={12} md={6} className="primary column">
                             <Box
-                                className="column sectHome"
+                                className="column"
                                 sx={{
                                     position: 'sticky',
                                     top: '100px',
-                                    bottom: '100px',
-                                    justifyContent: 'center',
-                                    mx: '10vw',
-                                    mt: "auto",
-                                    padding: '10vh'
+                                    mb: "auto",
+                                    padding: '10vw'
                                 }}>
                                 <CardMedia
-                                    className='sectHome'
                                     sx={{ height: 100, width: 200 }}
                                     component="img"
                                     alt="Mountain drawing"
                                     image={MountainStencil}
                                 />
                                 <h2 className="whiteText">4 REASONS WHY YOU SHOULD SERIOUSLY CONSIDER ME</h2>
-                            </Box>`
+                            </Box>
                         </Grid>
-                        <Grid className="column terrtiary" sx={{ textAlign: 'left', pr: '6vw' }} item xs={12} md={6}>
+                        <Grid className="column terrtiary" sx={{ textAlign: { md: 'left'}, pr: { md: '6vw'} }} item xs={12} md={6}>
                             <section className='sectHome'>
                                 {fourReasons.map((reason) => (
                                     <div key={reason.key}>
@@ -245,16 +241,18 @@ function Home() {
                     </Grid>
                 </Grid>
             </Grid>
-            <Box sx={{ width: '90vw', padding: '5vw' }}>
+            <Box sx={{ width: '90vw', px: '5vw', pt: '5vh' }}>
                 <img id="map" alt="map" src={Map} />
             </Box>
             <div className="column">
-                <h2 className="sectHome">STAY UP-TO-DATE WITH ALL THE RAD HAPPENINGS AT ADVENTURE PACT BY FOLLOWING US ON INSTAGRAM</h2>
-                <Box sx={{ width: 'fit-content' }} >
+                <section className="sectHome">
+                <h2>STAY UP-TO-DATE WITH ALL THE RAD HAPPENINGS AT ADVENTURE PACT BY FOLLOWING US ON INSTAGRAM</h2>
+                <Box sx={{ width: 'fit-content', display: 'flex', mx: 'auto' }} >
                     <a underline="none" target="_blank" rel="noreferrer" href='https://www.instagram.com/adventurepact/'>
                         <InstagramIcon sx={{ display: 'flex', fontSize: '5rem' }} />
                     </a>
                 </Box>
+                </section>
             </div>
             <Grid sx={{ mb: '5vh', flexGrow: 1 }} container spacing={1}>
                 <Grid item xs={12}>
