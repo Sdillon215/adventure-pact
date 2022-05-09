@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/adventure-pact/static/css/main.8670ac8d.css",
+    "main.js": "/adventure-pact/static/js/main.bd0006ee.js",
+    "static/js/787.23c8698d.chunk.js": "/adventure-pact/static/js/787.23c8698d.chunk.js",
+    "static/media/newrevisedmap.png": "/adventure-pact/static/media/newrevisedmap.24ae791d10a3d30910c8.png",
+    "static/media/sunsetVow.JPG": "/adventure-pact/static/media/sunsetVow.d0be999ac74e15fd476b.JPG",
+    "static/media/lanternCave.JPG": "/adventure-pact/static/media/lanternCave.50d3cf44fb57c8154c22.JPG",
+    "static/media/flamingo.JPG": "/adventure-pact/static/media/flamingo.2d1855c6f5bae2b8fc8a.JPG",
+    "static/media/iceBurrrrrg.JPG": "/adventure-pact/static/media/iceBurrrrrg.87c54fd2763d6403b067.JPG",
+    "static/media/pool.JPG": "/adventure-pact/static/media/pool.d2c13ba2b907e0266426.JPG",
+    "static/media/blackVelvet.jpg": "/adventure-pact/static/media/blackVelvet.5271423ca8019fb0b89a.jpg",
+    "static/media/tree.jpg": "/adventure-pact/static/media/tree.17506f79c0a0697d3274.jpg",
+    "static/media/river.jpg": "/adventure-pact/static/media/river.95993785029551fa481e.jpg",
+    "static/media/canyoneering.jpg": "/adventure-pact/static/media/canyoneering.618677107ef366c60841.jpg",
+    "static/media/road.jpg": "/adventure-pact/static/media/road.6b8c855e00e10ebf796e.jpg",
+    "static/media/junipup.jpg": "/adventure-pact/static/media/junipup.23d32f79a8e49c0cf223.jpg",
+    "static/media/PactHeroBg.jpeg": "/adventure-pact/static/media/PactHeroBg.8f0549cedecda271adf8.jpeg",
+    "static/media/rocks.jpg": "/adventure-pact/static/media/rocks.61988a3d3d94563bef1b.jpg",
+    "static/media/AdventurePactLogo.png": "/adventure-pact/static/media/AdventurePactLogo.5165a41c0bea6ba9b786.png",
+    "static/media/wonderingWed.png": "/adventure-pact/static/media/wonderingWed.9d54f7b5ac6ae5a804fe.png",
+    "index.html": "/adventure-pact/index.html",
+    "main.8670ac8d.css.map": "/adventure-pact/static/css/main.8670ac8d.css.map",
+    "main.bd0006ee.js.map": "/adventure-pact/static/js/main.bd0006ee.js.map",
+    "787.23c8698d.chunk.js.map": "/adventure-pact/static/js/787.23c8698d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8670ac8d.css",
+    "static/js/main.bd0006ee.js"
+  ]
+}
