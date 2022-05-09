@@ -14,7 +14,7 @@ function Portal() {
       alignItems="center"
       justifyContent="center"
     >
-      This is the mutha Heckin portallllll
+      This is the portallllll
       <Alert />
     </Grid>
   );
