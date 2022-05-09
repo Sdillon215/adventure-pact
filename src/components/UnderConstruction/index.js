@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import Swal from 'sweetalert2';
 function Alert() {
     Swal.fire({
@@ -15,7 +16,7 @@ function Alert() {
           window.location.href = "https://seancodez.com";
         }
         if (result.isDismissed) {
-            window.location.href = "/adventure-pact";
+            window.location.href = "https://sdillon215.github.io/adventure-pact";
         }
       })
   return (
