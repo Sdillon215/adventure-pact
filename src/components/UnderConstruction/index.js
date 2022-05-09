@@ -15,7 +15,7 @@ function Alert() {
           window.location.href = "https://seancodez.com";
         }
         if (result.isDismissed) {
-            window.location.href = "/";
+            window.location.href = "/adventure-pact";
         }
       })
   return (

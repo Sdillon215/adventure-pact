@@ -1,7 +1,7 @@
 {
   "name": "adventure-pact",
-  "homepage": "https://sdillon215.github.io/adventure-pact",
   "version": "0.1.0",
+  "homepage": "https://sdillon215.github.io/adventure-pact/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",

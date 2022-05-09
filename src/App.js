@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Nav from "./components/Nav"
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -42,7 +42,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/adventure-pact" element={<Home />} />
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/rightforyou" element={<Type />} />
           <Route exact path="/blog" element={<Blog />} />
